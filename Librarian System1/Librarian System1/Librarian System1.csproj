@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{02C724CF-3D49-4B11-A8C4-097E2F0B6BC4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Librarian_System1</RootNamespace>
+    <AssemblyName>Librarian System1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account page.Designer.cs">
+      <DependentUpon>Account page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Book page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Book page.Designer.cs">
+      <DependentUpon>Book page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Librarian page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Librarian page.Designer.cs">
+      <DependentUpon>Librarian page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log page.Designer.cs">
+      <DependentUpon>Log page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member page.Designer.cs">
+      <DependentUpon>Member page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return page.Designer.cs">
+      <DependentUpon>Return page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account page.resx">
+      <DependentUpon>Account page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Book page.resx">
+      <DependentUpon>Book page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Librarian page.resx">
+      <DependentUpon>Librarian page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log page.resx">
+      <DependentUpon>Log page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member page.resx">
+      <DependentUpon>Member page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Return page.resx">
+      <DependentUpon>Return page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\librarian system.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-management.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

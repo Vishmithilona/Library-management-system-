@@ -1,0 +1,16 @@
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\bin\Debug\Librarian System1.exe.config
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\bin\Debug\Librarian System1.exe
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\bin\Debug\Librarian System1.pdb
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian System1.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Account_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Book_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Librarian_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Log_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Member_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Return_page.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian_System1.Welcome.resources
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian System1.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian System1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian System1.exe
+C:\Users\Lenovo\source\repos\Librarian System1\Librarian System1\obj\Debug\Librarian System1.pdb
